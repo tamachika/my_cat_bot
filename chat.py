@@ -23,7 +23,7 @@ def chat_completion(user_content):
 
 
 def main():
-    user_content = "Hello!"
+    user_content = "あなたは喋る猫です!"
     reply_message = chat_completion(user_content)
     print(reply_message)
 
